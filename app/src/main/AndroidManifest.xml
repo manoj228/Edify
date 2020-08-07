@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edify">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".TeachActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".LearnActivity" />
+        <activity android:name=".BottonNavigationActivity" />
+        <activity android:name=".UpdatePassword" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
